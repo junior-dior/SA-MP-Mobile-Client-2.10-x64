@@ -29,7 +29,6 @@ void Widget::setSize(const ImVec2& size)
 {
 	ImVec2 sz = size;
 
-	/* min */
 	if (sz.x < m_minSize.x) sz.x = m_minSize.x;
 	if (sz.y < m_minSize.y) sz.y = m_minSize.y;
 	/* max */
@@ -41,9 +40,8 @@ void Widget::setSize(const ImVec2& size)
 
 void Widget::setWidth(float width)
 {
-	/* min */
+
 	if (width < m_minSize.x) width = m_minSize.x;
-	/* max */
 	if (width > m_maxSize.x) width = m_maxSize.x;
 
 	m_size.x = width;
@@ -51,9 +49,8 @@ void Widget::setWidth(float width)
 
 void Widget::setHeight(float height)
 {
-	/* min */
+
 	if (height < m_minSize.y) height = m_maxSize.y;
-	/* max */
 	if (height > m_maxSize.y) height = m_maxSize.y;
 
 	m_size.y = height;
@@ -61,10 +58,8 @@ void Widget::setHeight(float height)
 
 void Widget::setPosition(const ImVec2& position)
 {
-	// relative-pos
 	m_position = position;
 
-	// пересчитываем абсолютную позицию для this и child
 	this->updateAbsolutePosition();
 }
 
@@ -167,7 +162,6 @@ void Widget::touchEvent(const ImVec2& pos, TouchType type)
 		m_moveDelta = { 0.0f, 0.0f };
 	}
 
-	/* проходим по дочерним окнам */
 	if (m_children.empty()) return;
 	for (auto child : m_children)
 	{
@@ -185,11 +179,11 @@ void Widget::draw(ImGuiRenderer* renderer)
 			if (child->visible())
 			{
 #if DEBUG_GUI == 0
-				//renderer->pushClipRect(child->absolutePosition(), child->absolutePosition() + child->size(), true);
+
 #endif
 				child->draw(renderer);
 #if DEBUG_GUI == 0
-				//renderer->popClipRect();
+
 #endif
 			}
 		}
