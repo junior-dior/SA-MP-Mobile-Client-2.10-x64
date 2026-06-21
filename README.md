@@ -1,4 +1,4 @@
-# SA:MP Mobile Client v2.10 (x64) - Bug Fix Edition News Update
+<img width="1280" height="623" alt="image" src="https://github.com/user-attachments/assets/e9a070ae-9972-4315-890c-f806e72dd030" /><img width="1280" height="623" alt="image" src="https://github.com/user-attachments/assets/34f66e9f-513b-4a6e-a86a-a74da0c9c6f1" /># SA:MP Mobile Client v2.10 (x64) - Bug Fix Edition News Update
 
 A modified and optimized source code for the **SA:MP Mobile Client v2.10 (x64)** for GTA: San Andreas. This repository focuses on fixing known crashes, improving stability on modern Android devices, and resolving existing bugs from the original client.
 
@@ -14,7 +14,7 @@ A modified and optimized source code for the **SA:MP Mobile Client v2.10 (x64)**
 
 | Main Menu / หน้าแรก | Gameplay / บรรยากาศในเกม | Chat Input / ระบบพิมพ์แชท |
 | :---: | :---: | :---: |
-| <img src="https://media.discordapp.net/attachments/1157220002001342514/1512103112784085203/image.png?ex=6a22df43&is=6a218dc3&hm=5cc4c48f7830f3d77137a8fdc756d0991c41c05334f1b8e8aa32b21ce70ba092&=&format=webp&quality=lossless&width=1118&height=544" width="250" alt="Main Menu"> | <img src="https://www.blast.hk/attachments/270754/" width="250" alt="Gameplay"> | <img src="https://www.blast.hk/attachments/270754/" width="250" alt="Chat UI"> |
+| <img src="https://img2.pic.in.th/1ac5cb38b86a195cb.jpg" width="250" alt="Main Menu"> | <img src="https://img2.pic.in.th/image0b93a4ce8b5cdb5e.png" width="250" alt="Gameplay"> | <img src="https://www.blast.hk/attachments/270754/)" width="250" alt="Chat UI"> | 
 
 > 💡 *Tip: Create a `screenshots` folder in your repository root and upload your images as `menu.png`, `gameplay.png`, and `chat.png`.*
 
